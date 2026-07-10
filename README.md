@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Weekly Report Generator & Team Dashboard
 
 A full-stack app where **team members** submit structured weekly work reports and **managers**
@@ -122,3 +123,7 @@ frontend/
 | `POST /api/ai/chat/` | ❌ | ✅ |
 
 See [`ER_DIAGRAM.md`](ER_DIAGRAM.md) for the database schema.
+=======
+# Weekly-Report-Generator-Team-Dashboard
+A full-stack app where 'team members' submit structured weekly work reports and 'managers' view/analyze those reports across the team through a consolidated dashboard.
+>>>>>>> 48266b3596bfae8a3ae2ee157eb3890ebd09b576
