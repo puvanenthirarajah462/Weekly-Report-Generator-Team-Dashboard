@@ -110,20 +110,3 @@ frontend/
   src/components/            # Navbar, AiChatWidget
   src/lib/                    # Axios API client (JWT attach + refresh), auth helpers
 ```
-
-## 7. Role-based access, in brief
-
-| Endpoint | Team Member | Manager |
-|---|---|---|
-| `POST /api/reports/` (own) | ✅ | ✅ |
-| `GET /api/reports/` | own only | all, filterable |
-| `GET /api/reports/dashboard/summary/` | ❌ | ✅ |
-| `POST/PATCH/DELETE /api/projects/` | ❌ | ✅ |
-| `GET /api/projects/` | ✅ (read-only) | ✅ |
-| `POST /api/ai/chat/` | ❌ | ✅ |
-
-See [`ER_DIAGRAM.md`](ER_DIAGRAM.md) for the database schema.
-=======
-# Weekly-Report-Generator-Team-Dashboard
-A full-stack app where 'team members' submit structured weekly work reports and 'managers' view/analyze those reports across the team through a consolidated dashboard.
->>>>>>> 48266b3596bfae8a3ae2ee157eb3890ebd09b576
