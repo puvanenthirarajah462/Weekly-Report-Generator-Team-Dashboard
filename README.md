@@ -64,7 +64,7 @@ If you just want to poke around without setting up MySQL yet, set `DB_ENGINE=sql
 
 ### AI Chat Assistant (optional)
 
-Set `ANTHROPIC_API_KEY` in `backend/.env` to enable `/api/ai/chat/`. Without it, the endpoint
+Set `AGEMINI_API_KEY` in `backend/.env` to enable `/api/ai/chat/`. Without it, the endpoint
 still responds (so the frontend doesn't break) but explains the feature isn't configured.
 
 ---
